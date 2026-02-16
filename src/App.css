@@ -7,7 +7,7 @@
   background-image: url("https://thesolaropposites.com/lessonalyzer/img/stars-seamless.edcef73f.png");
   background-repeat: repeat;
   color: white;
-  font-family: imes New Roman, serif;
+  font-family: Times New Roman, serif;
   align-items: center;
 }
 
@@ -51,7 +51,7 @@
   background-color: #7249e3;
   color: white;
   border: none;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   padding: 20px;
   cursor: pointer;
@@ -70,7 +70,8 @@
 }
 
 .credits {
-  font-size: 10px;
+  font-size: 20px;
+  font-weight: bolder;
   text-align: center;
   margin-top: 10px;
 }
