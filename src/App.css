@@ -84,19 +84,15 @@
 }
 
 .flamesAbajo {
-z-index: 1;
+  z-index: 1;
   position: fixed;
   bottom: 0;
-  left: 0;           /* Asegura que empiece desde el borde izquierdo */
+  left: 0;
   width: 100%;
-  height: 30px;      /* Altura de la línea de fuego */
-  
-  /* Repetición infinita horizontal */
+  height: 30px;
   background-repeat: repeat-x;
   background-size: auto 100%;
   background-position: bottom;
-  
-  /* Evita que se pueda seleccionar el espacio en blanco */
   user-select: none;
   pointer-events: none;
 }
